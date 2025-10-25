@@ -1,5 +1,5 @@
 :root {
-  --main-font: Raleway;
+  --main-font: raleway;
   --accent-font: 'STIX Two Text';
   --bg-color: #f3efec;
   --text-color: #312a4e;
@@ -74,7 +74,7 @@ button:disabled {
   align-items: center;
   border-top: 1px solid currentColor;
   border-bottom: 1px solid currentColor;
-  padding: 20px 0 20px;
+  padding: 20px 0;
 }
 
 .header__theme-toggler {
@@ -168,7 +168,8 @@ button:disabled {
   left: -25px;
 }
 
-.content__text-block_type_first-lettered .content-paragraph:first-of-type::first-letter {
+.content__text-block_type_first-lettered
+  .content-paragraph:first-of-type::first-letter {
   display: inline-block;
   margin-right: 1px;
   padding: 0 4px;
@@ -248,7 +249,9 @@ button:disabled {
   background-image: url(../images/pattern.svg);
 }
 
-.theme_dark .content__text-block_type_first-lettered .content-paragraph:first-of-type::first-letter {
+.theme_dark
+  .content__text-block_type_first-lettered
+  .content-paragraph:first-of-type::first-letter {
   border: 1px solid currentColor;
 }
 
