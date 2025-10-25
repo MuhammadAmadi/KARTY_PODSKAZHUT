@@ -1,0 +1,1 @@
+https://github.com/MuhammadAmadi/KARTY_PODSKAZHUT.git
